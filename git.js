@@ -13,6 +13,7 @@ http.createServer(function (request, response) {
             response.write("pull error");
         } else {
             response.write('pull success');
+            console.log('pull done!');
         }
         response.end();
     });
