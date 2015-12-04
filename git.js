@@ -17,5 +17,5 @@ http.createServer(function (request, response) {
         }
         response.end();
     });
-
+    console.log('start')
 }).listen(8888);
